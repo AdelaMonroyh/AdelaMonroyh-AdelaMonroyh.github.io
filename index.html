@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cifrados</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #7F7FD5, #86A8E7, #91EAE4);
+            font-family: 'Roboto', sans-serif;
+            color: #ffffff;
+        }
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            max-width: 600px;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            color: #e0e0e0;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 50px;
+            margin: 20px 10px;
+            font-size: 20px;
+            color: #ffffff;
+            background: linear-gradient(135deg, #fc466b, #3f5efb);
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        .button:hover {
+            background: linear-gradient(135deg, #3f5efb, #fc466b);
+            transform: scale(1.05);
+        }
+        .button:active {
+            transform: scale(0.98);
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: #ffffff;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Bienvenido a la Página de Cifrados</div>
+        <!-- Botones -->
+        <a href="https://cifrado-django.onrender.com/" class="button">Cifrado con Django</a>
+        <a href="pagina2.html" class="button">Cifrado con Express</a>
+    </div>
+    <!-- Pie de página -->
+    <footer>© 2024 Proyecto de Cifrado - Todos los derechos reservados.</footer>
+</body>
+</html>
